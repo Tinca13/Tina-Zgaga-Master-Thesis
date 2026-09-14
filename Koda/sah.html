@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=1280, height=800, user-scalable=no">
+        <title>Pepper Sah</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="page-chess">
+        <div class="sidebar">
+            <h1>ŠAH</h1>
+            <div id="status">Ti si na vrsti!</div>
+            <button class="btn btn-reset" onclick="location.reload()">NOVA IGRA</button>
+            <a href="tablet.html" class="btn btn-back">NAZAJ</a>
+        </div>
+
+        <div class="game-area">
+            <table id="chess-table"></table>
+        </div>
+
+        <script src="lib/chess.bundle.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

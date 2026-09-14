@@ -1,0 +1,24 @@
+# Lokalno Python / NAOqi okolje
+__pynaoqi-python2.7/
+pynaoqi-python2.7-2.5.5.5-win32-vs2013/
+
+# Node.js nameščene knjižnice
+Koda/node_modules/
+
+# VS Code lokalni workspace
+Koda/Peper workspace.code-workspace
+
+# Python začasne datoteke
+__pycache__/
+*.pyc
+
+# Sistemske in začasne datoteke
+.DS_Store
+Thumbs.db
+*.log
+
+# Lokalni izpis napak
+*_All_Errors.txt
+
+# Lokalna testna skripta za preverjanje NAOqi povezave
+Koda/check_naoqi.py

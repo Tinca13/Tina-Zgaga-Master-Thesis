@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=800, user-scalable=no">
+    <title>Pepper Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-tictactoe">
+    <div class="sidebar">
+        <h1>KRIŽCI<br>IN<br>KROŽCI</h1>
+        <div id="status">Ti si na vrsti (X)</div>
+        <button class="btn-reset" onclick="location.reload()">PONASTAVI</button>
+        <button class="btn-back" onclick="window.location.href='tablet.html'">NAZAJ</button>
+    </div>
+
+    <div class="game-area">
+        <table id="game-board">
+            <tr>
+                <td onclick="playerMove(0, this)"></td>
+                <td onclick="playerMove(1, this)"></td>
+                <td onclick="playerMove(2, this)"></td>
+            </tr>
+            <tr>
+                <td onclick="playerMove(3, this)"></td>
+                <td onclick="playerMove(4, this)"></td>
+                <td onclick="playerMove(5, this)"></td>
+            </tr>
+            <tr>
+                <td onclick="playerMove(6, this)"></td>
+                <td onclick="playerMove(7, this)"></td>
+                <td onclick="playerMove(8, this)"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

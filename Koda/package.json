@@ -1,0 +1,14 @@
+{
+  "name": "pepper-tablet",
+  "version": "1.0.0",
+  "description": "Web-based game interface for the Pepper robot tablet.",
+  "scripts": {
+    "build": "esbuild chess-entry.js --bundle --outfile=lib/chess.bundle.js --format=iife"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  },
+  "dependencies": {
+    "chess.js": "^1.4.0"
+  }
+}
